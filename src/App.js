@@ -2,6 +2,7 @@ import { CssBaseline } from "@material-ui/core";
 import { StylesProvider } from "@material-ui/styles";
 import React from "react";
 import GlobalStyle from "./commons/styles/global-style";
+import Main from "./pages/Main";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <CssBaseline />
       <GlobalStyle />
       <div>
-        <h1>Test</h1>
+        <Main />
       </div>
     </StylesProvider>
   );
