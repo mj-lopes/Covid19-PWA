@@ -13,9 +13,9 @@ function Board({ data }) {
     <Grid container spacing={4}>
       <Grid item xs={12} md={3}>
         <Card
-          value={getValue(cases)}
-          label={"Total de casos"}
-          color={"#5D78FF"}
+          value={getValue(todayCases)}
+          label={"Casos hoje"}
+          color={"#F7B829"}
         />
       </Grid>
       <Grid item xs={12} md={3}>
@@ -27,9 +27,9 @@ function Board({ data }) {
       </Grid>
       <Grid item xs={12} md={3}>
         <Card
-          value={getValue(recovered)}
-          label={"Total recuperados"}
-          color={"#67c887"}
+          value={getValue(cases)}
+          label={"Total de casos"}
+          color={"#5D78FF"}
         />
       </Grid>
       <Grid item xs={12} md={3}>
@@ -41,9 +41,9 @@ function Board({ data }) {
       </Grid>
       <Grid item xs={12} md={3}>
         <Card
-          value={getValue(todayCases)}
-          label={"Casos hoje"}
-          color={"#F7B829"}
+          value={getValue(recovered)}
+          label={"Total de recuperados"}
+          color={"#67c887"}
         />
       </Grid>
     </Grid>
