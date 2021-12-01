@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import covidImage from "../../assets/images/covidImg.png";
+import covidImage from "../../assets/images/covidImg.jpg";
 
 const globalStyle = createGlobalStyle`
   * {
@@ -12,13 +12,13 @@ const globalStyle = createGlobalStyle`
   body {
     line-height: normal;
   }
-
+  
   html, body {
     width: 100%;
     min-height: 100%;
     display:flex;
     padding: 0;
-    margin: 0;
+    margin: 0;    
   }
 
   #root {
