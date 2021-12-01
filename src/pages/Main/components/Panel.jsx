@@ -35,7 +35,7 @@ const Panel = ({ updateAt, onChange, data, country, getCovidData }) => {
     navigator.share({
       title: `Dados da Covid19 - ${country}`,
       text: textCovid19,
-      url: "url",
+      url: "https://covid19-pwa-six.vercel.app",
     });
   };
 
